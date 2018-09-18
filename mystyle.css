@@ -1,0 +1,60 @@
+section {
+	position:relative;
+	margin:auto;
+	width:600px;
+	text-align:center;
+	padding-top:20px;
+	font-family:arial;
+	background:lightgrey;
+	border-radius:20px;
+}
+
+#slideshow{
+	margin-left:100px;
+}
+
+#pic1{
+	position:absolute;
+}
+#pic2{
+	position:absolute;
+	display:none;
+}
+#pic3{
+	position:absolute;
+	display:none;
+}
+#pic4{
+	position:absolute;
+	display:none;
+}
+#pic5{
+	position:absolute;
+	display:none;
+}
+
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 380px;
+    height: 20px;
+    background: grey;
+    outline: none;
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+    background: black;
+    cursor: pointer;
+}
+
+#slider-container {
+	margin-top:580px;
+    padding-bottom:50px;
+}
